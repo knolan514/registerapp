@@ -1,0 +1,35 @@
+<h1>User Registration</h1>
+
+<h4 style="color:red;"><%=flash[:alert]%><h4>
+
+<br>
+<form action="user/register" method="get">
+  <label>Full Name</label>
+  <input type="text" name="name">
+  <br>
+  <label>Street address</label>
+  <input type="text" name="address">
+  <br>
+  <label>City</label>
+  <input type="text" name="city">
+  <br>
+  <label>State</label>
+  <input type="text" name="state">
+  <br>
+  <label>Postal code</label>
+  <input type="text" name="postal">
+  <br>
+  <label>Country</label>
+  <input type="text" name="country">
+  <br>
+  <label>Email address</label>
+  <input type="text" name="email">
+  <br>
+  <label>User ID</label>
+  <input type="text" name="userid">
+  <br>
+  <label>Password</label>
+  <input type="text" name="password">
+  <br>
+  <input type="submit" name="register" value="Register">
+</form>

@@ -1,0 +1,11 @@
+<h1><%=flash[:notice]%></h1>
+
+<h3>Type a user name and password to log in!</h3>
+<br>
+<form action="/user/login" method="get">
+  <label>User ID</label>
+  <input type="text" name="userid">
+  <label>Password</label>
+  <input type="text" name="password">
+  <input type="submit" value="Login">
+</form>

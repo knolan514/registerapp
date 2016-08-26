@@ -1,0 +1,22 @@
+<h2>Hello <%=@user.userid%></h2>
+
+Full name: <%=@user.name%>
+<br>
+Street address: <%=@user.address%>
+<br>
+City: <%=@user.city%>
+<br>
+State: <%=@user.state%>
+<br>
+Postal code: <%=@user.postal%>
+<br>
+Country: <%=@user.country%>
+<br>
+Email address: <%=@user.email%>
+<br>
+User ID: <%=@user.userid%>
+<br>
+<br>
+<form action="/user/logout" method="get">
+  <input type="submit" value="Logout">
+</form>
